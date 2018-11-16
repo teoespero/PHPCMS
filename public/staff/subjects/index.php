@@ -5,15 +5,24 @@ BS Cloud and Systems Administration
 Western Governors University 
 
 -->	
-<!doctype html>
 
-<html lang="en">
-  <head>
-    <title></title>
-    <meta charset="utf-8">
-  </head>
+<?php 
+	
 
-  <body>
+	require_once('../../../private/initialize.php'); 
+	$pageTitle = 'Subjects Menu';
+	include(SHARED_PATH . '/staff_header.php');
 
-  </body>
-</html>
+?>
+
+
+<div id="content">
+</div>
+
+<?php 
+
+	include(SHARED_PATH . '/staff_footer.php');
+
+?>
+
+
