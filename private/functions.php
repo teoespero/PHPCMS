@@ -11,7 +11,7 @@ Western Governors University
 <html>
 	<head>	
 			<meta charset="utf-8">
-			<title>teoespero.com | UDFs - PHP Programming</title>
+			<title>teoespero.com | Global Bank CMS - PHP Programming</title>
 			<meta name="description" content="">
   			<meta name="author" content="teoespero">
 	</head>
@@ -25,17 +25,6 @@ Western Governors University
 			define("_BOLDEND", "</strong>");
 			define("_ITALICSTART", "<em>");
 			define("_ITALICEND", "</em>");
-			
-			// FUNCTION LIST
-
-			function paintColor($color="Red"){
-				return "The color:" . _SPACER . $color . _NEWLINE;
-			}
-
-			// MAIN PROGRAM 
-
-			echo paintColor("Blue");
-			echo paintColor();
 
 		?>
 

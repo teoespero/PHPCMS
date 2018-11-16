@@ -18,21 +18,13 @@ Western Governors University
 	<body>
 		<h1>Globe Bank: Coming soon</h1>
 		<?php
-
-			// define constants
-			define("_NEWLINE", "<br>");
-			define("_SPACER", " ");
-			define("_BOLDSTART", "<strong>");
-			define("_BOLDEND", "</strong>");
-			define("_ITALICSTART", "<em>");
-			define("_ITALICEND", "</em>");
 			
 			// FUNCTION LIST
 
 			
 
 			// MAIN PROGRAM 
-
+			require_once("../../private/initialize.php");
 			
 
 		?>

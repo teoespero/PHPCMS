@@ -18,24 +18,9 @@ Western Governors University
 	<body>
 		<?php
 
-			// define constants
-			define("_NEWLINE", "<br>");
-			define("_SPACER", " ");
-			define("_BOLDSTART", "<strong>");
-			define("_BOLDEND", "</strong>");
-			define("_ITALICSTART", "<em>");
-			define("_ITALICEND", "</em>");
-			
-			// FUNCTION LIST
+			// LOAD REQUIRED FILES
 
-			function paintColor($color="Red"){
-				return "The color:" . _SPACER . $color . _NEWLINE;
-			}
-
-			// MAIN PROGRAM 
-
-			echo paintColor("Blue");
-			echo paintColor();
+			require_once("functions.php");
 
 		?>
 
