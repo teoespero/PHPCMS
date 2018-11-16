@@ -4,32 +4,16 @@ Teodulfo Espero
 BS Cloud and Systems Administration
 Western Governors University 
 
--->
+-->	
+<!doctype html>
 
-<! DOCTYPE html>
 <html lang="en">
-<html>
-	<head>	
-			<meta charset="utf-8">
-			<title>teoespero.com | Global Bank CMS - PHP Programming</title>
-			<meta name="description" content="">
-  			<meta name="author" content="teoespero">
-	</head>
-	<body>
-		<h1>Globe Bank: Coming soon</h1>
-		<?php
-			
-			// FUNCTION LIST
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+  </head>
 
-			
-
-			// MAIN PROGRAM 
-			require_once("../../private/initialize.php");
-			
-
-		?>
-
-
-	</body>
+  <body>
+  		<h1>Global Bank: Coming Soon...</h1>
+  </body>
 </html>
-

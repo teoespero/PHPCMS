@@ -4,42 +4,16 @@ Teodulfo Espero
 BS Cloud and Systems Administration
 Western Governors University 
 
--->
+-->	
+<!doctype html>
 
-<! DOCTYPE html>
 <html lang="en">
-<html>
-	<head>	
-			<meta charset="utf-8">
-			<title>teoespero.com | UDFs - PHP Programming</title>
-			<meta name="description" content="">
-  			<meta name="author" content="teoespero">
-	</head>
-	<body>
-		<?php
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+  </head>
 
-			// define constants
-			define("_NEWLINE", "<br>");
-			define("_SPACER", " ");
-			define("_BOLDSTART", "<strong>");
-			define("_BOLDEND", "</strong>");
-			define("_ITALICSTART", "<em>");
-			define("_ITALICEND", "</em>");
-			
-			// FUNCTION LIST
+  <body>
 
-			function paintColor($color="Red"){
-				return "The color:" . _SPACER . $color . _NEWLINE;
-			}
-
-			// MAIN PROGRAM 
-
-			echo paintColor("Blue");
-			echo paintColor();
-
-		?>
-
-
-	</body>
+  </body>
 </html>
-

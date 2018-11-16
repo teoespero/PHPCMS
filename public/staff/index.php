@@ -5,18 +5,31 @@ BS Cloud and Systems Administration
 Western Governors University 
 
 -->	
+<!doctype html>
 
-<?php
-	require_once("../../private/initialize.php");
-	
-	$page_title = "Staff Menu";
-	include("../../private/shared/staff_header.php");
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" type="text/css" media="all" href="../stylesheets/staff.css">
+    <title>Global Bank International - CMS</title>
+    <meta charset="utf-8">
+  </head>
 
-?>
+  <body>
+  		<header>
+  			<h1>Global Bank: Staff Area</h1>
+  		</header>
 
-<div id="content">
-</div>
+  		<nav>
+  			<ul>
+  				<li><a href="index.php">Menu</a></li>
+  			</ul>
+  		</nav>
 
-<?php
-	include("../../private/shared/staff_footer.php");
-?>
+  		<div id="content">
+  		</div>
+
+  		<footer>
+  			&copy; <?php echo date("Y"); ?> Globe Bank
+  		</footer>
+  </body>
+</html>
