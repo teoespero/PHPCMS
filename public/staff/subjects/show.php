@@ -5,15 +5,11 @@ BS Cloud and Systems Administration
 Western Governors University 
 
 -->	
-<!doctype html>
 
-<html lang="en">
-  <head>
-    <title>Global Bank International - CMS</title>
-    <meta charset="utf-8">
-  </head>
+<?php
 
-  <body>
+	$id = $_GET['id'];
 
-  </body>
-</html>
+	echo $id;
+
+?>
