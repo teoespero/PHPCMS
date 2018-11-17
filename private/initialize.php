@@ -27,5 +27,13 @@ Western Governors University
 	$doc_root = substr($_SERVER['SCRIPT_NAME'], 0, $public_end);
 	define("WWW_ROOT", $doc_root);
 
+
+	define("_NEWLINE", "<br>");
+	define("_SPACER", "&nbsp;");
+	define("_BOLDSTART", "<strong>");
+	define("_BOLDEND", "</strong>");
+	define("_ITALICSTART", "<em>");
+	define("_ITALICEND", "</em>");
+
 	require_once('functions.php');
 ?>

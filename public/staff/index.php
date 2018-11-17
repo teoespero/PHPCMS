@@ -22,6 +22,9 @@ Western Governors University
 		<ul>
 			<li><a href="subjects/index.php">Subjects</a></li>
 	  	</ul>
+	  	<ul>
+			<li><a href="pages/index.php">Pages</a></li>
+	  	</ul>
 	</div>
 </div>
 

@@ -1,19 +1,24 @@
-<!-- 
+<?php
+	// Teodulfo Espero
+	// BS Cloud and Systems Administration
+	// Western Governors University 
 
-Teodulfo Espero
-BS Cloud and Systems Administration
-Western Governors University 
 
--->	
-<!doctype html>
+	require_once('../../../private/initialize.php'); 
 
-<html lang="en">
-  <head>
-    <title></title>
-    <meta charset="utf-8">
-  </head>
+	$test = $_GET['test'] ?? '';
 
-  <body>
+	if ($test == '404') {
+		# code...
+		error_404();
+	}
+	elseif ($test == '500') {
+		# code...
+		error_500();
+	}
+	else {
+		# code...
+		echo 'No Error';
+	}
+?>
 
-  </body>
-</html>

@@ -38,9 +38,7 @@ Western Governors University
 				<th>Position</th>
 				<th>Visible</th>
 				<th>Name</th>
-				<th>&nbsp;</th>
-				<th>&nbsp;</th>
-				<th>&nbsp;</th>
+				<th colspan="3">Actions</th>
 			</tr>
 
 			<?php
@@ -52,8 +50,8 @@ Western Governors University
 					<td><?php echo $subject['visible'] == 1 ? 'True' : 'False'; ?></td>
 					<td><?php echo $subject['menu_name']; ?></td>
 					<td><a class="action" href="<?php echo url_for('/staff/subjects/show.php?id=' . $subject['id']); ?>">View</a></td>
-					<td><a class="action" href="">Edit</a></td>
-					<td><a class="action" href="">Delete</a></td>
+					<td><a class="action" href="<?php echo url_for('/staff/subjects/edit.php?id=' . $subject['id']); ?>">Edit</a></td>
+					<td><a class="action" href="<?php echo url_for('/staff/subjects/delete.php?id=' . $subject['id']); ?>">Delete</a></td>
 				</tr>
 
 			<?php }?>
